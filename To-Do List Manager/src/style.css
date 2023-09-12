@@ -1,0 +1,148 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #066acd;
+}
+
+* {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    width: 40%;
+    min-width: 450px;
+    min-height: 100px;
+    margin: 100px auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.mainContainer #myForm {
+    position: relative;
+    padding: 30px 20px;
+}
+
+.mainContainer #myForm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mainContainer #myForm input {
+    width: 74%;
+    height: 20px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+.mainContainer #myForm input:focus {
+    outline: none;
+    border-color: #0d75ec;
+}
+
+.mainContainer #myForm button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.mainContainer #todoContainer {
+    background-color: #ffffff;
+    padding: 0 20px 10px 20px;
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+}
+
+.mainContainer #myForm h2 {
+    margin-top: 30px;
+    margin-bottom: -25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.task {
+    background-color: #c5e1e6;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
+
+.checkBoxAndP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.taskCheck {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.taskText {
+    font-size: 17px;
+    font-weight: 450;
+    margin-top: 1px;
+    padding-left: 10px;
+}
+
+.deleteBtn {
+    background-color: #0a2ea4;
+    color: #ffffff;
+    height: 100%;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    transition: all .1s linear;
+}
+
+.deleteBtn:hover {
+    transform: translateY(-5px)
+}
+
+.textCut {
+    text-decoration: line-through;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 450;
+}
+
+.disabledBackground {
+    background-color: #ccc;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}

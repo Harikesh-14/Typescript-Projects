@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List Manager</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="mainContainer">
+
+            <!-- main form -->
+            <form id="myForm">
+                <h1>To-Do List Manager</h1>
+                <input type="text" id="taskInput" placeholder="Enter the title here..." required>
+                <button type="submit" id="submitBtn">Add</button>
+
+                <h2>Your tasks</h2>
+            </form>
+
+            <!-- to-do container -->
+            <div id="todoContainer">
+                <!-- all todos will be appended here -->
+                <p class="textCut" style="text-align: center; color: #ccc;">No task yet</p>
+                <!-- <div class="task">
+                    <div class="checkBoxAndP">
+                        <input type="checkbox" class="taskCheck" id="taskCheck">
+                        <p class="taskText">And Mand Ka Tola</p>
+                    </div>
+                    <button class="deleteBtn" id="deleteBtn"><i class="fa-solid fa-trash"></i></button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+    <script src="https://kit.fontawesome.com/e6506fb756.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
